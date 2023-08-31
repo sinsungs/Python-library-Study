@@ -10,7 +10,7 @@ options.add_experimental_option('detach', True) # 브라우저 바로 닫힘 방
 
 service = Service(ChromeDriverManager().install())
 
-# # print(servicer)
+print(service)
 
 driver = webdriver.Chrome(service=service, options=options)
 
